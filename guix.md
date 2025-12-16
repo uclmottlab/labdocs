@@ -80,7 +80,8 @@ To use all these channels, you'd first put the following in your `~/.config/guix
       (channel
         (name 'gn-bioinformatics)
         (url "https://git.genenetwork.org/guix-bioinformatics")
-        (branch "master")))
+        (branch "master"))
+      %default-guix-channel)
 ```
 Then, run
 ```
